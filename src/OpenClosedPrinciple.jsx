@@ -18,7 +18,6 @@ function OpenClosedPrinciple () {
   return (
     <main style={{ outline: '2px solid #09f' }}>
       <h2>Open Closed Principle</h2>
-
       {currentPath === '/' && <Home />}
       {currentPath === '/dashboard' && <Dashboard />}
     </main>

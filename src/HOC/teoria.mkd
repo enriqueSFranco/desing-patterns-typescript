@@ -1,0 +1,4 @@
+# HOC (Higher Order Component)
+El patrón HOC (Higher Order Component) es una técnica comúnmente utilizada en React para compartir lógica entre componentes.
+
+Básicamente, un HOC es una función que toma un componente y devuelve un nuevo componente con alguna funcionalidad adicional. En React, un HOC es una forma de reutilizar la lógica de un componente en varios lugares sin tener que repetir el código.
