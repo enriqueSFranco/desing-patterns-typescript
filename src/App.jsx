@@ -1,7 +1,6 @@
 import React from 'react'
 import SingleResposibilityPrinciple from './SingleResponsibilityPrinciple'
 import OpenClosedPrinciple from './OpenClosedPrinciple'
-import CounterSingleton from './components/CounterSingleton'
 import './App.css'
 
 function App () {
@@ -9,7 +8,6 @@ function App () {
     <div className='App'>
       <SingleResposibilityPrinciple />
       <OpenClosedPrinciple />
-      <CounterSingleton />
     </div>
   )
 }
