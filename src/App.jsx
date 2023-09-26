@@ -1,6 +1,7 @@
+import React from 'react'
 import SingleResposibilityPrinciple from './SingleResponsibilityPrinciple'
-import './App.css'
 import OpenClosedPrinciple from './OpenClosedPrinciple'
+import './App.css'
 
 function App () {
   return (
