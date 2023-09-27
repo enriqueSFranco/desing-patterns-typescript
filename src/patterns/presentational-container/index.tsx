@@ -1,9 +1,11 @@
-import { Suspense } from "react"
-import { DogImage } from "./dog-image"
-import { fetchData } from "../../services/fetchRandomDog"
+import { Suspense } from 'react'
+import { DogImage } from './dog-image'
+import { fetchData } from '../../services/fetchData'
+import { DogResponse } from '../../shared/models.d'
 
-const api = fetchData(new URL('https://dog.ceo/api/breed/labrador/images/random'))
+const api = fetchData<DogResponse>(new URL('https://dog.ceo/api/breed/labrador/images/random'))
 
+// MARK: COMPONENTE SMART <- SE CENTRA EN CÓMO FUNCIONA Y EN LA LOGICA
 export const DogImageContainer = () => {
   const data = api.read()
 
