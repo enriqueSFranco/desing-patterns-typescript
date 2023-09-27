@@ -15,3 +15,11 @@ export const DogImageContainer = () => {
     </Suspense>
   )
 }
+
+/**
+ * PROPS
+ * ANIMA A LA SEPARACION DE RESPOSABILIDADES
+ * 
+ * CONTRAS
+ * Los HOOKS permiten lograr el mismo resultado sin tener que usar el patrón Contenedor / Presentacional
+ **/
