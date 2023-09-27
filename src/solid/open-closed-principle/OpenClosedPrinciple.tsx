@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Home from './views/Home'
-import Dashboard from './views/Dashboard'
+import { Home } from '@/views/Home'
+import { Dashboard } from '@/views/Dashboard'
 
 /**
  * Hay que tener cuidado cuando usamos Open closed principle porque al

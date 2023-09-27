@@ -1,6 +1,6 @@
-import Header from '../Header'
+import { Header } from '../components/Header'
 
-function Home () {
+export function Home () {
   return (
     <section>
       <Header>
@@ -12,4 +12,3 @@ function Home () {
   )
 }
 
-export default Home

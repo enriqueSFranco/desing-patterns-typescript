@@ -1,5 +1,7 @@
-import Header from '../Header'
-function Dashboard () {
+import { Header } from '../components/Header'
+
+
+export function Dashboard () {
   return (
     <section>
       <Header>
@@ -10,4 +12,3 @@ function Dashboard () {
   )
 }
 
-export default Dashboard
