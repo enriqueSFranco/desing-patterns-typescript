@@ -1,4 +1,4 @@
-# Principios SOLID
+# Principios SOLID y Patrones de diseño en Typescript y Swift
 
 S - Single Responsibility Principle
 
