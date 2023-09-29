@@ -5,19 +5,21 @@ import React from 'react'
 // import { DogImageContainer } from '@/patterns/presentational-container'
 // import { ObserverPattern } from './patterns/observer-pattern'
 // import { HOCPattern } from './patterns/hoc-pattern'
-import { RenderProps } from './patterns/render-props'
+// import { RenderProps } from './patterns/render-props'
+import { MigradoLibreApp } from '../src/01-interview/migrado-libre'
 import './App.css'
 
 function App () {
   return (
     <React.Fragment>
       {/* <Toaster expand /> */}
+      <MigradoLibreApp />
       {/* <SingleResposibilityPrinciple /> */}
       {/* <OpenClosedPrinciple /> */}
       {/* PRESENTATIONAL-CONTAINER  <DogImageContainer /> */}
       {/* <ObserverPattern /> */}
       {/* <HOCPattern /> */}
-      <RenderProps />
+      {/* <RenderProps /> */}
     </React.Fragment>
   )
 }

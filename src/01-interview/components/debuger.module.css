@@ -1,0 +1,11 @@
+.container_debuger {
+  height: 100px;
+  width: 500px;
+  position: fixed;
+  overflow-y: auto;
+  border-radius: 4px;
+  top: 1rem;
+  left: 0;
+  right: 0;
+  background-color: #00000064;
+}
