@@ -8,11 +8,10 @@ import styles from './home.module.css'
 export const Home = () => {
   const { products, error, loading } = useProducts()
   const { allCategories, error: errorCategories, loading: loadingCategories } = useCategories()
-  const { pathFromRoot } = allCategories
 
   return (
     <>
-      <Debuger state={allCategories} />
+      {/* <Debuger state={allCategories} /> */}
       <header>
         <h2>migrado libre</h2>
       </header>
@@ -23,7 +22,8 @@ export const Home = () => {
             {/* categories */}
             {loadingCategories && <h3>cargando categorias...</h3>}
             {errorCategories && <span>{errorCategories}</span>}
-            {allCategories && pathFromRoot.map((category) => (
+            {/* TODO: ARREGLAR */}
+            {allCategories && allCategories.pathFromRoot.map((category) => (
               <li key={`category-id-${category.name}`}><Link to={''}>{category.name}</Link></li>
             ))}
           </ul>

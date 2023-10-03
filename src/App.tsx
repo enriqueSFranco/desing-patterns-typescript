@@ -4,21 +4,21 @@ import React from 'react'
 // import OpenClosedPrinciple from './solid/open-closed-principle/OpenClosedPrinciple'
 // import { DogImageContainer } from '@/patterns/presentational-container'
 // import { ObserverPattern } from './patterns/observer-pattern'
-// import { HOCPattern } from './patterns/hoc-pattern'
+import { HOCPattern } from './patterns/hoc-pattern'
 // import { RenderProps } from './patterns/render-props'
-import { MigradoLibreApp } from '../src/01-interview/migrado-libre'
+// import { MigradoLibreApp } from '../src/01-interview/migrado-libre'
 import './App.css'
 
 function App () {
   return (
     <React.Fragment>
       {/* <Toaster expand /> */}
-      <MigradoLibreApp />
+      {/* <MigradoLibreApp /> */}
       {/* <SingleResposibilityPrinciple /> */}
       {/* <OpenClosedPrinciple /> */}
       {/* PRESENTATIONAL-CONTAINER  <DogImageContainer /> */}
       {/* <ObserverPattern /> */}
-      {/* <HOCPattern /> */}
+      <HOCPattern />
       {/* <RenderProps /> */}
     </React.Fragment>
   )
